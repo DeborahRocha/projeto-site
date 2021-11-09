@@ -18,10 +18,25 @@ main {
 
 h1 {
     color: rgb(61, 19, 100);
-    font-size: 25px;
-    font-weight: bold;
+    font-size: 2em;
+    color: rgb(58, 0, 112);
 }
 
 h2 {
-    color: purple;
+    font-size: 1.5em;
+    color: rgb(58, 0, 112);
+}
+
+img.lado {
+    float: right
+}
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: rgb(58, 0, 112);
+}
+
+a:hover {
+    text-decoration: underline;
+    color: rgb(26, 26, 255);
 }
